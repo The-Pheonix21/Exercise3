@@ -7,9 +7,9 @@ class Exercise3  {
 		 int n=2;
 		 double f = 1.0e-12;
 		 double x=5.0;
-		  // Scanner myinput = new Scanner (System.in);
-		  // System.out.println("Please input an integer:");
-		  // x = myinput.nextDouble();
+		  Scanner myinput = new Scanner (System.in);
+		  System.out.println("Please input an integer:");
+		  x = myinput.nextDouble();
 		  g = 1 + x;
 		   while (subterm > f) {
 		       subterm=mypower(x,n)/factorial(n);
